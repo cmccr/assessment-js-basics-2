@@ -31,7 +31,9 @@
 
 //CODE HERE
 
-
+class = Ticket {
+    
+}
 
 /*
     Create a new instance of your class.
