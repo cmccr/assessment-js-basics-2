@@ -73,8 +73,8 @@ console.log(pizza.tags[1])
 
 //CODE HERE
 
-let {price} = pizza
-console.log(`${price}`)
+const {price} = pizza
+console.log(price)
 
 /*
     Fourth, and last, destructure the category
@@ -85,8 +85,9 @@ console.log(`${price}`)
 
 //CODE HERE
 
-let {category} = pizza
-console.log(`${category}`)
+const {category} = pizza
+console.log(category)
+
 
 //////////////////PROBLEM 3////////////////////
 /* 
@@ -102,7 +103,48 @@ console.log(`${category}`)
 
 //CODE HERE
 
-const foodArr = []
+const foodArr = [
+{
+    name: 'Chicken Wings',
+    price: 6,
+    category: 'Appetizer',
+    popularity: 9,
+    rating: 10,
+    tags: ['Buffalo', 'Garlic Parmesan', 'Barbeque']
+},
+{
+    name: 'Salad',
+    price: 5,
+    category: 'Appetizer',
+    popularity: 7,
+    rating: 9,
+    tags: ['Ranch', 'Ceasar', 'Thousand Island']
+},
+{
+    name: 'Mac and Cheese',
+    price: 8,
+    category: 'Entree',
+    popularity: 10,
+    rating: 10,
+    tags: ['American', 'Cheddar', 'PepperJack']
+},
+{
+    name: 'Steak',
+    price: 12,
+    category: 'Entree',
+    popularity: 9,
+    rating: 10,
+    tags: ['Sirloin', 'Strip', 'Fillet']
+},
+{
+    name: 'Lava Cake',
+    price: 6,
+    category: 'Dessert',
+    popularity: 9,
+    rating: 10,
+    tags: ['Mini', 'Full', 'Slice']
+}
+]
 
 //////////////////PROBLEM 4////////////////////
 /* 
